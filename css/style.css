@@ -257,7 +257,7 @@ textarea {
     ),
     url(../../assets/svg/common-bg.png);
   background-position: center;
-  height: 100vh;
+  height: 50vh;
   min-height: 60rem;
   max-height: 100rem;
   position: relative;
@@ -380,6 +380,7 @@ textarea {
   grid-template-columns: 1.5fr 1fr;
   grid-gap: 5rem;
   margin-bottom: 11rem;
+  box-shadow: 6px 3px 38px -1px rgba(0, 0, 51, 1);
 }
 @media only screen and (max-width: 56.25em) {
   .projects__row {
@@ -511,6 +512,7 @@ textarea {
 .project-details__showcase-img-cont {
   width: 90%;
   margin-bottom: 6rem;
+  box-shadow: 6px 3px 38px -1px rgba(0, 0, 51, 1);
 }
 
 .project-details__showcase-img {
